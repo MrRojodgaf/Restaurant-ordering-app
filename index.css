@@ -8,6 +8,8 @@ body {
     margin: auto;
     padding-bottom: 20px;
     position: relative;
+    border: 1px solid #6d6875;
+    border-radius: 5px;
 }
 
 /* Header styling */
@@ -98,15 +100,6 @@ header {
     margin-left: auto;
 }
 
-.order-btn {
-   margin: 1px 6px 1px 6px; 
-   border: none;
-   font-size: 8px;
-   background: none;
-   padding: 0;
-   cursor: pointer;
-   color: grey;
-}
 
 .total {
     width: 90%;
@@ -121,14 +114,13 @@ header {
 
 /* Buttons */
 .menu-btn {
-    border-radius: 50%; 
+    border-radius: 50%;
     border: 1px solid grey; 
-    font-size: 18px;
+    font-size: 40px;
     margin-left: auto;
     cursor: pointer;
     color: #6d6875;
-    width: 32px;
-    height: 32px;
+    width: 35px;
 }
 
 .submit-btn {
@@ -143,6 +135,17 @@ header {
     background: #16DB99;
     color: #ffffff;
 }
+
+.order-btn {
+    margin: 1px 6px 1px 6px; 
+    border: none;
+    font-size: 8px;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+    color: grey;
+ }
+ 
 
 .pay-btn {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
